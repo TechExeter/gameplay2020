@@ -1,0 +1,124 @@
+
+<section id="contact">
+	<div class="inner">
+		<section>
+			<form action="https://formspree.io/gameplay@techexeter.uk" method="POST">
+				<div class="field half first">
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" />
+				</div>
+				<div class="field half">
+					<label for="email">Email</label>
+					<input type="text" name="_replyto" id="email" />
+				</div>
+				<div class="field">
+					<label for="message">Message</label>
+					<textarea name="message" id="message" rows="6"></textarea>
+				</div>
+				<ul class="actions">
+					<li><input type="submit" value="Send Message" class="special" /></li>
+					<li><input type="reset" value="Clear" /></li>
+				</ul>
+			</form>
+		</section>
+		<section class="split">
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fas fa-map-marker"></span>
+					<h3>Location: Exeter Phoenix</h3>
+					<a href="https://www.exeterphoenix.org.uk/about-us/location/"> Exeter Phoenix, Bradninch Place, Gandy Street, Exeter, EX4 3LS</a>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-twitter"></span>
+					<h3>Twitter</h3>
+					<a href="{{ site.twitter_url }}">{{ site.twitter_url }}</a>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-instagram"></span>
+					<h3>Instagram</h3>
+					<a href="{{ site.instagram_url }}">{{ site.instagram_url }}</a>
+				</div>
+			</section>
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-slack"></span>
+					<h3>Slack</h3>
+					<a href="{{ site.slack_url }}">{{ site.slack_url }}</a> #gameplay
+				</div>
+			</section>
+				
+		</section>
+	</div>
+</section>
+
+<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+
+			<div class="row">
+				<div class="6u 12u$(small)">
+					<nav id="footermenu">
+						<ul class="alt">
+							{% for page in site.pages %}
+								{% if page.layout == "home" %}
+									<li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
+								{% endif %}
+							{% endfor %}
+							{% assign ordered_pages = site.pages | sort:"nav-order" %}
+							{% for page in ordered_pages %}
+								{% if page.layout != "home" and page.nav-menu == true %}
+									<li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+								{% endif %}
+							{% endfor %}
+						</ul>
+					</nav>
+				</div>
+				<div class="6u$ 12u$(small)">
+					<h3>Venue Map</h3>
+					<p><a href="/assets/gameplay-layout.pdf" class="button small" target="_blank"><i class="fa fa-map"></i> Download Map</a></p>
+					<h3>Sponsors and Supporters</h3>
+					<div class="row 50% uniform">
+						<div class="3u"><span class="image fit"><img src="assets/images/sponsor-techexeter.png" alt="TechExeter CIC"></span></div>
+						<div class="3u"><span class="image fit"><img src="assets/images/sponsor-phoenix.png" alt="Exeter Phoenix"></span></div>
+						<div class="3u$"><span class="image fit"><img src="assets/images/sponsor-ecc.png" alt="Exeter City Council"></span></div>
+					</div>
+
+					
+					<p></p>
+					<div>
+
+
+
+					</div>
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+	
+			<div class="boxed">{{ site.title }}</div> {{ site.subtitle2 }}<br/>
+			A <a href="https://techexeter.uk" target="_blank">TECHEXETER</a> EVENT
+			
+			<ul class="copyright">
+				<li>&copy; TechExeter CIC</li>
+				<li>Event and website content are subject to change. See our <a href="/terms">terms and conditions</a> for more information.</li>
+			</ul>
+			<ul class="copyright">
+				<li>Theme Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
+				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
+			</ul>
+		</div>
+	</footer>
+
+</div>
+
+<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="assets/js/main.js"></script>

@@ -1,0 +1,32 @@
+# site settings
+title: Game>Play
+subtitle: Exeter Phoenix > Sat 23rd Feb 2019
+subtitle2: Exeter Phoenix > Sat 23rd Feb 2019
+email: hello@techexeter.uk
+description: A one day gaming festival on Sat 23rd Feb at Exeter Phoenix
+meta-description: A brand new one day gaming festival for Exeter on Sat 23rd Feb 2019 at Exeter Phoenix
+# baseurl: / # the subpath of your site, e.g. /blog
+# url: # the base hostname & protocol for your site
+google_analytics: UA-77113113-5
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings
+500px_url:
+facebook_url:
+github_url:
+gitlab_url: 
+googleplus_url:
+instagram_url: https://instagram.com/techexeter
+linkedin_url: 
+pinterest_url:
+slack_url: https://techexeter.slack.com
+twitter_url: https://twitter.com/techexeter
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed

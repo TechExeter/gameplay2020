@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body class="home">
+
+    {% include header.html %}
+
+    <section id="banner" class="major" style="background-image: none;background:#00ff50;">
+        <div class="inner">
+            <h1 style="margin-bottom: 0em;"><i class="icon fas fa-gamepad"></i>FESTIVAL COMPLETE - YOU WIN!</h1>
+            <div class="content">
+                <p style="text-transform: uppercase;">
+                Wow - what an amazing day, thank you!
+                Here's a <a href="https://www.youtube.com/watch?v=fkw5Gg5byCs" target="_blank" rel="none">video</a> and <a href="https://www.facebook.com/1112385828793865/photos/?tab=album&album_id=2315495561816213" target="_blank" rel="none">some pictures</a>.
+                Check out our <a href="https://meetup.com/gameplay-exeter">MEETUP GROUP</a> for more events! <br/><br/>Browse the archived 2019 festival site below.
+                </p>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fkw5Gg5byCs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+        <div class="inner">
+            <header class="major">
+                <h1><i class="icon fas fa-gamepad"></i> {{ page.landing-title }}</h1>
+            </header>
+            <div class="content" style=" font-size:130%;">
+                <p style="text-transform: uppercase;">{{ page.description }}</p>
+                <ul class="actions">
+                    <li><a href="#one" class="button next scrolly">WHAT'S ON</a></li>
+                </ul>
+            </div>
+
+            <!-- Begin Mailchimp Signup Form -->
+            <div id="mc_embed_signup">
+            <form action="https://techexeter.us13.list-manage.com/subscribe/post?u=b4eb19f31ed535a360131cde0&amp;id=e8213082c6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <h3>Subscribe to our mailing list for the latest updates</h3>
+                <div class="row">
+                    <div class="mc-field-group 6u 12u$(xsmall)">
+                            <label for="mce-EMAIL">Email Address </label>
+                    </div>
+                    <div class="6u$ 12u$(xsmall)">
+                    </div>
+                    <div class="mc-field-group 6u 12u$(xsmall)">
+                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                    </div>
+                    <div class="6u$ 12u$(xsmall)">
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b4eb19f31ed535a360131cde0_e8213082c6" tabindex="-1" value=""></div>
+                        <div class="clear"><input type="submit" class="button special" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"></div>
+                    </div>
+                </div>
+                </form>
+            </div>
+            <!--End mc_embed_signup-->
+        </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- One -->
+        {% include tiles.html %}
+
+        <!-- Two -->
+        <section id="two">
+            <div class="inner">
+                <header class="major">
+                    <h2>What is GAME&gt;PLAY?</h2>
+                </header>
+                {{ content }}
+                <ul class="actions">
+                    <li><a href="about.html" class="button next">Find out more</a></li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>
