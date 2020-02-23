@@ -5,7 +5,7 @@ html-title: About -
 description: 'What is Game>Play, and who are TechExeter?'
 image: assets/images/gameplay-bg.gif
 nav-menu: true
-nav-order: 4
+nav-order: 10
 ---
 
 <!-- Main -->
@@ -15,7 +15,7 @@ nav-order: 4
 	<!-- Content -->
 	<div class="inner">
 	<img src="assets/images/gameplay-logo1.png" style="align:center; width:15em;">
-	<blockquote><strong>GAME>PLAY</strong> is a brand new one-day gaming festival for Exeter - bringing together playable art, retro gaming, indie games and theatre shows together under one roof.</blockquote>
+	<blockquote><strong>GAME>PLAY</strong> is a Exeter's biggest gaming festival - bringing together playable art, retro gaming, indie games and  shows together for one jam-packed weekend.</blockquote>
 	</div>
 </section>
 

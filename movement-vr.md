@@ -62,6 +62,27 @@ nav-order: 3
 			</div>
 		</div>
 	</section>
+
+	
+			
+	<div class="12u$">
+	<hr/>
+		<h2 id="cat">Cat Explorer</h2>
+	</div>
+	<div class="4u 12u$(small)">
+		<span class="image fit"><img src="assets/images/gameplay-artworkshop-catexplorer1.jpg" alt="Cat Explorer" /></span>
+	</div>
+	
+	<div class="8u$ 12u$(small)">
+	<div class="boxed type">VR Experiment</div> 
+	<p>VR interactions have the potential to be easier and more intuitive than with any other technology. Cat Explorer is a fun demo that points to the transformative potential of VR and natural interaction in fields as diverse as education, training, healthcare, and entertainment.</p>
+	<p>Instead of learning how to use a controller, Cat Explorer encourages you to learn through play and experimentation. With no instructions, previous experience or training, people can dive into the space and quickly understand what to do. Get exploring!</p>
+
+	<ul class="actions">
+		<li><a href="https://gallery.leapmotion.com/cat-explorer/" class="button small" target="_blank">Learn More</a></li>
+	</ul>
+	
+	</div>
 	
 </section>
 

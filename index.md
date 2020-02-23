@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'GAME>PLAY'
+landing-title: 'GAME>PLAY 2020'
 description: A three day gaming festival<br/> 3rd - 5th July 2020<br/> Exeter
 image: null
 author: null
