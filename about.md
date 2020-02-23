@@ -41,9 +41,9 @@ nav-order: 4
 		<div class="content">
 			<div class="inner">
 				<header class="major smallmargin">
-					<h3>GAME>PLAY 2019</h3>
+					<h3>GAME>PLAY 2020</h3>
 				</header>
-				<p>We only had a short time and tiny budget to put together this event, but we've managed to put together a day full of activities - two theatre shows, workshops, plus retro and indie games showcases. But we want to do more - more art, more interactive workshops, more theatre shows and more games! So if you enjoy what we've done this year, we'd love to hear your thoughts on how to make the event better for next year.</p>
+				<p>Last year's one-day festival was so much fun we had to bring it back - so we've partnered with Exeter City Council to run it alongside Exeter Festival! We've got plenty on, but are always up for more - more art, more interactive workshops and more games! So if you enjoy what we've done this year, we'd love to hear your thoughts on how to make the event better for next year.</p>
 				<p></p>
 			</div>
 		</div>

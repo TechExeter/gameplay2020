@@ -1,7 +1,7 @@
 ---
 layout: page
 title: dummy
-description: Book tickets for the daytime shows
+description: Dummy description goes in here
 image: assets/images/gameplay-shows.jpg
 nav-menu: false
 show_tile: false

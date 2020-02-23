@@ -11,21 +11,6 @@
 <body class="home">
 
     {% include header.html %}
-
-    <section id="banner" class="major" style="background-image: none;background:#00ff50;">
-        <div class="inner">
-            <h1 style="margin-bottom: 0em;"><i class="icon fas fa-gamepad"></i>FESTIVAL COMPLETE - YOU WIN!</h1>
-            <div class="content">
-                <p style="text-transform: uppercase;">
-                Wow - what an amazing day, thank you!
-                Here's a <a href="https://www.youtube.com/watch?v=fkw5Gg5byCs" target="_blank" rel="none">video</a> and <a href="https://www.facebook.com/1112385828793865/photos/?tab=album&album_id=2315495561816213" target="_blank" rel="none">some pictures</a>.
-                Check out our <a href="https://meetup.com/gameplay-exeter">MEETUP GROUP</a> for more events! <br/><br/>Browse the archived 2019 festival site below.
-                </p>
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fkw5Gg5byCs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div>
-    </section>
-
     <!-- Banner -->
     <section id="banner" class="major">
         <div class="inner">
@@ -67,6 +52,7 @@
     <div id="main">
 
         <!-- One -->
+        {% include meta-game.html %}
         {% include tiles.html %}
 
         <!-- Two -->

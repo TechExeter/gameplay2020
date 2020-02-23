@@ -1,9 +1,9 @@
 ---
-title: Art / Workshops
+title: Workshops and 48h GAME JAM
 layout: landing
-html-title: Art / Workshops -
-description: Interactive Art and Playful Workshops
-description-long: Interactive Art and Playful Workshops. All Free!
+html-title: Workshops and 48h GAME JAM - 
+description: Learn how to make games, then take part in our 48 hour game jam!
+description-long: Learn how to make games, then take part in our 48 hour game jam! All Free!
 image: assets/images/gameplay-games-joypadbar1.jpg
 nav-menu: true
 tile-order: 3

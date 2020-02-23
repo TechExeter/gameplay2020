@@ -1,9 +1,9 @@
 ---
 layout: landing
-title: Elsewhere
-html-title: Elsewhere -
+title: Elsewhere / Fringe Events
+html-title: Elsewhere / Fringe Events -
 description: Other local attractions
-description-long: Check out these other gaming related places - all walking distance from Exeter Phoenix!
+description-long: Check out these other gaming related places - all in the city centre!
 image: assets/images/gameplay-elsewhere-board.jpg
 nav-menu: true
 tile-order: 5
@@ -93,7 +93,7 @@ nav-order: 5
 
 	<section>
 		<i class="image">
-		<img src="assets/images/gameplay-elsewhere-imperial1.jpg" />
+		<img src="assets/images/gameplay-elsewhere-imperial2.jpg" />
 		</i>
 		<div class="content">
 			<div class="inner">
@@ -112,24 +112,23 @@ nav-order: 5
 
 	<section>
 		<i class="image">
-		<img src="assets/images/gameplay-elsewhere-wyvernstales.jpg" />
+		<img src="assets/images/pic01.jpg" />
 		</i>
 		<div class="content">
 			<div class="inner">
 				<header class="major smallmargin">
-					<h3>Wyvern's Tales - LARP & cosplay store</h3>
+					<h3>Little Drop of Poison</h3>
 				</header>
-				<div class="boxed">Location: Paris Street</div> 
-				<p>A popup shop on Paris Street, Wyvern's Tales is a hub for people involved in the fine art of dressing up and having fun to congregate.</p>
+				<div class="boxed">Location: Fore Street</div> 
+				<p>The finest libations from across the globe with great music and fine company! Beers, wines, and spirits, a welcoming place for any and all to relax. Free pool, boardgames and games consoles!</p>
 				<ul class="actions">
-					<li><a href="https://www.facebook.com/Wyvernstales/" class="button small" target="_blank">Learn more</a></li>	
-					<li><a href="https://goo.gl/maps/mjwsTg451q62" class="button small" target="_blank"><i class="fa fa-map"></i> Map</a></li>
+					<li><a href="https://www.facebook.com/LDOPExeter/" class="button small" target="_blank">Learn more</a></li>	
+					<li><a href="https://goo.gl/maps/tmYf4XaDikJ2" class="button small" target="_blank"><i class="fa fa-map"></i> Map</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
 
-	
 	<section>
 		<i class="image">
 		<img src="assets/images/gameplay-elsewhere-exeterarcade.jpg" />
