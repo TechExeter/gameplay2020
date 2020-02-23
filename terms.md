@@ -47,7 +47,7 @@ sitemap:
 	</div>
 	<div class="6u 12u$(small)">
 		<h3><i class="fa fa-bullhorn"></i> Social Media</h3>
-		<p>We will be tweeting and instagraming the day using hashtag #gameplayexeter - follow us on <a href="https://twitter.com/techexeter/" target="_blank">@techexeter</a> and find us on Instagram at <a href="https://instagram.com/techexeter/" target="_blank">TechExeter</a></p>
+		<p>We will be tweeting and instagraming the event using hashtag #gameplayexeter - follow us on <a href="https://twitter.com/techexeter/" target="_blank">@techexeter</a> and find us on Instagram at <a href="https://instagram.com/techexeter/" target="_blank">TechExeter</a></p>
 	</div>
 	<div class="6u$ 12u$(small)">
 		<h3><i class="fa fa-comments"></i> Interviews</h3>

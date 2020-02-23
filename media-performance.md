@@ -29,7 +29,6 @@ nav-order: 3
 			</div>
 		</div>
 	</section>
-	
 </section>
 
 

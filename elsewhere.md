@@ -5,9 +5,9 @@ html-title: Elsewhere / Fringe Events -
 description: Other local attractions
 description-long: Check out these other gaming related places - all in the city centre!
 image: assets/images/gameplay-elsewhere-board.jpg
-nav-menu: true
-tile-order: 5
-nav-order: 5
+nav-menu: false
+tile-order: 6
+nav-order: 6
 ---
 
 <!-- Main -->
